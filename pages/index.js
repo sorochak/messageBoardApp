@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import MessageList from '../components/MessageList';
+import MessageFormAndList from '../components/MessageFormAndList';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default function App() {
@@ -13,7 +13,7 @@ export default function App() {
                     </Row>
                     <Row className="d-flex justify-content-center">
                         <Col lg={8}>
-                            <MessageList />
+                            <MessageFormAndList />
                         </Col>  
                     </Row>
                     <Row className="d-flex justify-content-center">
