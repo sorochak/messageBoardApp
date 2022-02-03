@@ -1,9 +1,10 @@
 import NewMessageForm from "./NewMessageForm";
 import MessageList from "./MessageList";
+import { useState } from 'react';
 
 const MessageFormAndList = () => {
 
-    const messages = [
+    const initialState = [
         {
             id: 0,
             name: "Bill",
@@ -36,12 +37,16 @@ const MessageFormAndList = () => {
         },
     ];
 
+    const [messages, setMessages] = useState(initialState);
+
+
     // function called by Formik to pass data from the Form
     const addNewMessage = (values) => {
         values.id = messages.length;
-        messages.unshift(values);
-        console.log(values);
-        console.log(messages);
+        setMessages( [values, ...messages] );
+        //messages.unshift(values);
+        //console.log(values);
+        //console.log(messages);
     }
 
     return (
