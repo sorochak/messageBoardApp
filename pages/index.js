@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import MessageItem from '../components/MessageItem';
 import MessageList from '../components/MessageList';
+import MessageItem from '../components/MessageItem';
 
 export default function App() {
   return (
