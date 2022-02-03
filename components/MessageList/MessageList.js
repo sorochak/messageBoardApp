@@ -1,6 +1,7 @@
+import Table from 'react-bootstrap/Table';
+
 const MessageList = () => {
 
-    const { Table } = ReactBootstrap;
 
     const messages = [
         {
