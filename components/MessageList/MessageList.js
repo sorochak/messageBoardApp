@@ -1,5 +1,5 @@
 import Table from 'react-bootstrap/Table';
-import MessageItem from '../components/MessageItem';
+import MessageItem from '../MessageItem/MessageItem';
 
 const MessageList = () => {
 
