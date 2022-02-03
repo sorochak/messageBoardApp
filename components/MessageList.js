@@ -13,8 +13,8 @@ const MessageList = ({ messages }) => {
                 </tr>
             </thead>
             <tbody>
-                {messages.map(message =>
-                    <MessageItem key={message.id} {...message} />
+                {messages.map( (message, index) =>
+                    <MessageItem key={message.id} {...message} msgNum={index+1} />
                 )}
             </tbody>
         </Table>
