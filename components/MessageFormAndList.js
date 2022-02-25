@@ -14,7 +14,7 @@ const MessageFormAndList = ({ jsonData }) => {
 
         try {
 
-            const { data } = await axios.post('http://localhost:3004/api/messages', values);
+            const { data } = await axios.post('http://10.21.75.41:3004/api/messages', values);
             setMessages( [data, ...messages] );
 
         } catch(error) {
