@@ -1,4 +1,5 @@
-## Introduction - Message Board (Forum) Application (Front-End)
+# Message Board (Forum) Application (React Front-End)
+## Introduction
 
 This is a simple front-end Message Board application that was developed for the purpose of consuming data from a Web Services project.
 
