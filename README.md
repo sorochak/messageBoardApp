@@ -16,4 +16,4 @@ Project is created with:
 * Next.js
 * Formik
 
-
+![image](./images/msgBoard.png)
